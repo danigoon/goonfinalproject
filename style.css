@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(178, 214, 197);
+    width: 100%;
+}
+.list-group-item {
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+}
+
+.del {
+    justify-self: end; 
+}
+.list-group-item:nth-child(odd) {
+    background-color: darkgrey
+}
+.list-group-item:nth-child(even) {
+    background-color: lightgray;
+}
